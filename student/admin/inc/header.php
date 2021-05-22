@@ -3,11 +3,11 @@
 <div id="header">
 
 	<div id="logo">
-		<h2><a href="index.php" >E Learning</a></h2>
+		<h2><a href="index.php" >JaySutra</a></h2>
 	
 	</div>
 	<div id="title">
-	<h2>Student Panel Of E Learning System</h2>
+	<h2>JaySutra Online Learning System (Student) </h2>
 	
 	</div>   
 	<div id="link">

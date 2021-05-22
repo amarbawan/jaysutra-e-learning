@@ -1,5 +1,5 @@
 	<?php
-include("inc/db.php");
+        include("inc/db.php");
 		$query=$con->prepare("select *from contact where con_id='".$_COOKIE['userid']."'");
 		
 		$query->execute();

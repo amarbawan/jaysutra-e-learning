@@ -1,0 +1,15 @@
+welcome to JaySutra  Online Plateform .
+Here we are giving you a online claases plateform for your coaching and schools  (using core php with source code)
+
+first you put this all file into publich html folder  then zip file in discription link 
+
+"jaysutra" database name
+
+
+
+
+1. send_mail_to_buy_account.php 
+
+2. sendmailtonewuser.php
+
+the above two pages must change your "email id" and your "gmail original password"

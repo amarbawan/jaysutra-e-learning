@@ -12,11 +12,11 @@
 		
 		echo"
 		<ul>
-				<li><a href='https://www.facebook.com/".$row['fb']."' target='_blank'><i class='fab fa-facebook-f'></i></a></li>
-				<li><a href='https://www.twitter.com/".$row['tw']."' target='_blank'><i class='fab fa-twitter'></i></a></li>
-				<li><a href='https://www.google.com/".$row['gp']."' target='_blank'><i class='fab fa-google-plus-g'></i></a></li>
-				<li><a href='https://www.youtube.com/".$row['yt']."' target='_blank'><i class='fab fa-youtube'></i></a></li>
-				<li><a href='https://www.linkedin.com/".$row['link']."' target='_blank'><i class='fab fa-linkedin'></i></a></li>
+				<li><a href='https://www.facebook.com/JaySutra4U/".$row['fb']."' target='_blank'><i class='fab fa-facebook-f'></i></a></li>
+				<li><a href='https://www.twitter.com/jay_sutra".$row['tw']."' target='_blank'><i class='fab fa-twitter'></i></a></li>
+				<li><a href='https://www.instagram.com/jay.sutra/".$row['gp']."' target='_blank'><i class='fab fa-instagram'></i></a></li>
+				<li><a href='https://www.youtube.com/c/JaySutra".$row['yt']."' target='_blank'><i class='fab fa-youtube'></i></a></li>
+
 		</ul>
 		
 		";
@@ -173,7 +173,8 @@
 				move_uploaded_file($s_photo_tmp,"imgs/userdp/$s_photo");	
 				
 				$query1=$con->prepare("insert into contact(role,username,email,phn,photo,password)values('$role','$s_name','$s_email','$s_phn','$s_photo','$s_pass1')");
-				
+				echo"<script>alert('!...Already Your Register... ')</script>";
+
 				if($query1->execute())
 				{
 					echo"<script>alert('Please Check your email...Enter the code and verify...')</script>";

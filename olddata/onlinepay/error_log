@@ -1,0 +1,4 @@
+[05-Sep-2020 14:23:05 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/onlinepay/database.php on line 8
+[05-Sep-2020 14:23:21 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/onlinepay/database.php on line 8
+[05-Sep-2020 14:23:21 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/onlinepay/table.php on line 50
+[05-Sep-2020 14:23:21 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/onlinepay/table.php on line 52

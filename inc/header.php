@@ -16,12 +16,12 @@ session_start();
 		</div>
 		
 		<div id="slog">
-			<p>India's No.1 E Learning Website</p>
+			<p>JaySutra | One Sutra For All Problems!</p>
 		</div>
 	 </div>
 
 	 <div id="title">
-		<h2><a href="index.php">E Learning</a></h2>
+		<h2><a href="index.php">JaySutra</a></h2>
 	 </div>
 	 
 	 <div id="menu">

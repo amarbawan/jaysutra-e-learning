@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>E Learning | Category</title>
+		<title>JaySutra | Category</title>
 		<link rel="stylesheet" href="css/style.css" />
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"/>
 	</head>

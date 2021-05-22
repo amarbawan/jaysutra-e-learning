@@ -1,0 +1,633 @@
+[06-Sep-2020 16:25:02 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(651): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/contact.php(17): contact()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(70): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[06-Sep-2020 16:25:07 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(831): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/faqs.php(22): view_faqs()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(74): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[06-Sep-2020 16:25:13 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(192): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/cat.php(29): view_cat()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(54): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[06-Sep-2020 16:25:14 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(457): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/sub_cat.php(18): select_Cat()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(62): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[06-Sep-2020 16:25:16 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(106): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/lang.php(28): view_lang()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(58): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[06-Sep-2020 16:25:17 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(923): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/add_course.php(1): add_course()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(82): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[06-Sep-2020 16:25:19 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(923): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/add_course.php(1): add_course()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(82): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[06-Sep-2020 16:25:21 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(1253): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/lecture.php(2): add_lecture()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(86): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[06-Sep-2020 16:25:24 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/viewallstudent.php(77): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(99): include('/home/bd5qjyjil...')
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#4 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[06-Sep-2020 16:25:25 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/viewallteacher.php(77): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(95): include('/home/bd5qjyjil...')
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#4 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[06-Sep-2020 16:25:31 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(534): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/terms.php(37): view_term()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(66): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[06-Sep-2020 16:25:51 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(923): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/add_course.php(1): add_course()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(82): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[06-Sep-2020 16:25:55 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(1253): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/lecture.php(2): add_lecture()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(86): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[06-Sep-2020 16:25:58 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(923): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/add_course.php(1): add_course()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(82): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[06-Sep-2020 16:25:59 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(106): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/lang.php(28): view_lang()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(58): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[06-Sep-2020 16:26:11 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(106): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/lang.php(28): view_lang()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(58): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[06-Sep-2020 16:26:16 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(923): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/add_course.php(1): add_course()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(82): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[06-Sep-2020 16:26:21 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(651): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/contact.php(17): contact()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(70): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[07-Sep-2020 08:50:10 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(457): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/sub_cat.php(18): select_Cat()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(62): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[07-Sep-2020 08:50:20 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(192): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/cat.php(29): view_cat()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(54): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[07-Sep-2020 08:50:55 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(651): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/contact.php(17): contact()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(70): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[07-Sep-2020 08:58:26 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(192): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/cat.php(29): view_cat()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(54): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[07-Sep-2020 08:58:47 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(192): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/cat.php(29): view_cat()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(54): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[07-Sep-2020 08:59:13 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(192): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/cat.php(29): view_cat()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(54): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[07-Sep-2020 08:59:17 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(192): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/cat.php(29): view_cat()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(54): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[07-Sep-2020 08:59:20 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(457): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/sub_cat.php(18): select_Cat()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(62): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[07-Sep-2020 08:59:26 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(923): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/add_course.php(1): add_course()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(82): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[07-Sep-2020 08:59:30 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(1253): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/lecture.php(2): add_lecture()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(86): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[07-Sep-2020 09:00:07 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(1253): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/lecture.php(2): add_lecture()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(86): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[07-Sep-2020 09:15:30 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(923): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/add_course.php(1): add_course()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(82): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[07-Sep-2020 09:30:11 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(192): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/cat.php(29): view_cat()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(54): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[07-Sep-2020 09:30:14 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(923): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/add_course.php(1): add_course()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(82): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[07-Sep-2020 09:30:17 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(1253): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/lecture.php(2): add_lecture()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(86): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[07-Sep-2020 09:40:47 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(923): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/add_course.php(1): add_course()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(82): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[07-Sep-2020 11:58:10 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(923): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/add_course.php(1): add_course()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(82): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[07-Sep-2020 11:58:13 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(1253): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/lecture.php(2): add_lecture()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(86): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[07-Sep-2020 11:58:25 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/viewallstudent.php(77): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(99): include('/home/bd5qjyjil...')
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#4 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[07-Sep-2020 11:58:28 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/viewallteacher.php(77): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(95): include('/home/bd5qjyjil...')
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#4 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[07-Sep-2020 11:58:30 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/viewallteacher.php(77): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(95): include('/home/bd5qjyjil...')
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#4 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[07-Sep-2020 11:58:47 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/viewallteacher.php(77): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(95): include('/home/bd5qjyjil...')
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#4 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[07-Sep-2020 11:58:57 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/viewallstudent.php(77): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(99): include('/home/bd5qjyjil...')
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#4 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[07-Sep-2020 11:59:01 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(923): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/add_course.php(1): add_course()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(82): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[07-Sep-2020 11:59:06 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(1253): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/lecture.php(2): add_lecture()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(86): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[07-Sep-2020 11:59:11 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(1253): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/lecture.php(2): add_lecture()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(86): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[07-Sep-2020 11:59:16 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(923): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/add_course.php(1): add_course()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(82): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[07-Sep-2020 11:59:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(923): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/add_course.php(1): add_course()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(82): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[07-Sep-2020 11:59:27 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(1253): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/lecture.php(2): add_lecture()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(86): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[07-Sep-2020 11:59:32 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(192): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/cat.php(29): view_cat()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(54): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[07-Sep-2020 11:59:51 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(192): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/cat.php(29): view_cat()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(54): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[07-Sep-2020 11:59:55 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(192): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/cat.php(29): view_cat()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(54): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[07-Sep-2020 12:01:39 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(923): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/add_course.php(1): add_course()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(82): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[07-Sep-2020 12:01:40 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(923): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/add_course.php(1): add_course()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(82): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[07-Sep-2020 12:01:42 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(1253): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/lecture.php(2): add_lecture()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(86): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[07-Sep-2020 12:03:39 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(192): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/cat.php(29): view_cat()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(54): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[07-Sep-2020 12:06:25 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(457): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/sub_cat.php(18): select_Cat()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(62): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[07-Sep-2020 12:06:28 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(192): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/cat.php(29): view_cat()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(54): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[07-Sep-2020 12:06:30 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(192): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/cat.php(29): view_cat()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(54): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[07-Sep-2020 12:06:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(192): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/cat.php(29): view_cat()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(54): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[07-Sep-2020 12:07:17 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(923): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/add_course.php(1): add_course()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(82): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[07-Sep-2020 12:07:21 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(1253): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/lecture.php(2): add_lecture()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(86): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[07-Sep-2020 12:07:26 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(192): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/cat.php(29): view_cat()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(54): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[07-Sep-2020 12:08:37 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(923): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/add_course.php(1): add_course()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(82): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[07-Sep-2020 12:08:39 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(1253): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/lecture.php(2): add_lecture()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(86): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[07-Sep-2020 12:08:41 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(923): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/add_course.php(1): add_course()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(82): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[07-Sep-2020 12:08:42 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(923): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/add_course.php(1): add_course()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(82): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[07-Sep-2020 12:08:45 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(1253): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/lecture.php(2): add_lecture()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(86): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[07-Sep-2020 12:09:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(457): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/sub_cat.php(18): select_Cat()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(62): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[07-Sep-2020 12:09:25 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(106): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/lang.php(28): view_lang()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(58): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[07-Sep-2020 12:09:28 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php:6
+Stack trace:
+#0 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php(6): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php(1253): include('/home/bd5qjyjil...')
+#2 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/lecture.php(2): add_lecture()
+#3 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/bodyleft.php(86): include('/home/bd5qjyjil...')
+#4 /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/index.php(16): include('/home/bd5qjyjil...')
+#5 {main}
+  thrown in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/db.php on line 6
+[21-Sep-2020 02:12:44 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php on line 1083
+[21-Sep-2020 02:12:44 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php on line 1083
+[21-Sep-2020 02:13:49 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php on line 1083
+[21-Sep-2020 02:13:49 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php on line 1083
+[21-Sep-2020 02:13:52 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php on line 1083
+[21-Sep-2020 02:13:52 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php on line 1083
+[21-Sep-2020 02:21:06 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php on line 1083
+[21-Sep-2020 02:21:06 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php on line 1083
+[21-Sep-2020 02:21:28 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php on line 1083
+[21-Sep-2020 02:21:28 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php on line 1083
+[21-May-2021 12:26:44 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php on line 1083
+[21-May-2021 12:26:44 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php on line 1083
+[21-May-2021 12:31:53 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php on line 1083
+[21-May-2021 12:31:53 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php on line 1083
+[21-May-2021 12:31:59 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php on line 1083
+[21-May-2021 12:31:59 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php on line 1083
+[21-May-2021 12:32:08 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php on line 353
+[21-May-2021 12:32:41 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php on line 1083
+[21-May-2021 12:32:41 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/bd5qjyjil3cy/public_html/myclass.jaysutra.com/teacher/admin/inc/function.php on line 1083
